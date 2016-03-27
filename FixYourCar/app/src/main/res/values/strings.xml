@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FixYourCar</string>
+    <string name="titulo">\nDigite o seu Login: </string>
+    <string name="titulo2">\nDigite sua senha:</string>
+    <string name="fazerLogin">Entrar</string>
+    <string name="cadastro">Cadastrar</string>
+    <string name="facebook_app_id">1579537062373543</string>
+</resources>
