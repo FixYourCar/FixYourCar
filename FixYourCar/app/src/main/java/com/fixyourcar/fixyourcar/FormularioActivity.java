@@ -29,7 +29,7 @@ public class FormularioActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //definindo qual será o layout usado por essa activity:
-        setContentView(R.layout.formulario);
+        setContentView(R.layout.formularioUsuario);
 
         //obtendo a intent que foi chamada
         Intent intent = getIntent();
