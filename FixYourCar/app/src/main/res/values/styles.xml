@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- Criando um novo estilo -->
+    <style name="TitleFont"
+        parent="@android:style/TextAppearance.Large">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFBA00</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
 </resources>

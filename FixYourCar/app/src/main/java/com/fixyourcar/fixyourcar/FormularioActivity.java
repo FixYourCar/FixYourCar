@@ -3,6 +3,7 @@ package com.fixyourcar.fixyourcar;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 /**
@@ -29,7 +30,7 @@ public class FormularioActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //definindo qual será o layout usado por essa activity:
-        setContentView(R.layout.formularioUsuario);
+        setContentView(R.layout.formulariousuario);
 
         //obtendo a intent que foi chamada
         Intent intent = getIntent();
@@ -40,6 +41,13 @@ public class FormularioActivity extends Activity {
         do método getStringExtra:
         */
         msgTextView.setText(saudacao + intent.getStringExtra(EXTRA_NOME_USUARIO));
+    }
+
+    //Esse método é ativo quando o usuário clicar no botão Prosseguir
+    public void prosseguir (View v) {
+        Intent prosseguir = new Intent(CarroActivity.ACAO_CARRO);
+        prosseguir.addCategory(CarroActivity.CATEGORIA_CARRO);
+        startActivity(prosseguir);
     }
 
 }

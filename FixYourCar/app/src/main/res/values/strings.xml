@@ -1,8 +1,28 @@
 <resources>
+    <!-- Strings da aplicação formulário -->
     <string name="app_name">FixYourCar</string>
+
+    <!-- Strings da activity_main -->
+
     <string name="titulo">\nDigite o seu Login: </string>
     <string name="titulo2">\nDigite sua senha:</string>
     <string name="fazerLogin">Entrar</string>
     <string name="cadastro">Cadastrar</string>
-    <string name="facebook_app_id">1579537062373543</string>
+
+    <!-- Strings do formulariousuario -->
+
+    <string name="tituloForm">Preencha os seguintes campos: \n</string>
+    <string name="form1">Email</string>
+    <string name="form2">Nome Completo</string>
+
+    <!-- Strings do formulariocarro -->
+
+    <string name="formcarro1">
+        Precisamos das seguintes informações para cuidarmos do seu veículo: \n</string>
+    <string name="formcarro2">Estado</string>
+    <string name="formcarro3">\nPlaca</string>
+    <string name="formcarro4">\nData de Vencimento do CRLV</string>
+    <string name="formcarro5">\nMarca</string>
+    <string name="formcarro6">\nAno </string>
+    <string name="formcarro7">\nMarca da bateria</string>
 </resources>
